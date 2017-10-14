@@ -1,0 +1,128 @@
+* {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+html, body {
+	font-family: tahoma;
+}
+
+
+body {
+	background-image:linear-gradient(rgba(0,0,0,1),rgba(29, 15, 7, 0)), url(../Images/coffee.jpg);
+	height:100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	
+}
+
+.container-fluid {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.navbar-nav {
+	text-align: center;
+	float: none;
+	display: inline-block;
+	font-size:150%;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: #ddcf90;
+}
+
+.navbar-nav>li>a:hover {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    color: black;
+	-webkit-transition:0.4s ease-in-out;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ddcf90;
+}
+
+.navbar-default {
+    background-color: #ddcf90;
+	
+}
+
+
+h2, h3, p {
+	color: white;
+	font-size: 150%;
+}
+
+
+
+.italic {
+	font-style: italic;
+}
+
+
+h1 {
+	color: white;
+}
+
+img {
+	margin-top: 20px;
+	
+}
+
+footer {
+	color:white;
+	background-color: black;
+	font-family:tahoma;
+}
+
+.img-responsive {
+	max-width: 100%;
+	height: auto;
+	display: inline-block;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+.color {
+	color:#ddcf90;
+}
+	
+.underline {
+	text-decoration: underline;
+}
+
+.footer {
+	position: relative;
+	height: 160px;
+	bottom: 0;
+	width:100%;
+}
+	
+
+#namelabel {color: #ddcf90} 
+
+#emaillabel {color: #ddcf90} 
+
+#phonelabel {color: #ddcf90}
+
+#server {color: #ddcf90}
+
+#clean {color: #ddcf90}
+#manager {color: #ddcf90}
+#parttime{color:#ddcf90;}
+#fulltime{color:#ddcf90;}
+#male{color:#ddcf90;}
+#female{color:#ddcf90;}
+#experience{color: black}
+
+
+#bar {color: #ddcf90;
+		margin-left: 1}
